@@ -1,0 +1,54 @@
+form {
+  position: fixed;
+  right: 5%;
+  top: 5%;
+}
+
+h1 {
+  margin-bottom: 2em;
+}
+
+#anadir {
+  position: fixed;
+  right: 4%;
+  top: 27%;
+}
+
+#tarjeta {
+  background: url(../img/tarjeta-01.png);
+  margin-bottom: 5em;
+  border: solid 1px;
+  background: transparent url("../img/tarjeta-01.png") repeat scroll 0 0/cover;
+  height: 262px;
+  width: 470px;
+  position: relative;
+}
+
+#tarjeta h2 {
+  position: absolute;
+  right: 7%;
+}
+
+#tarjeta h3 {
+  position: absolute;
+  right: 7%;
+  top: 15%;
+}
+
+#tarjeta #ubicacion {
+  position: absolute;
+  right: 15%;
+  top: 52%;
+}
+
+#tarjeta #telefono {
+  position: absolute;
+  right: 15%;
+  top: 68%;
+}
+
+#tarjeta #remover {
+  position: absolute;
+  right: 0%;
+  bottom: -15%;
+}
